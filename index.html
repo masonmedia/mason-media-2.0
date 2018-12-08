@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Mason Media | Welcome</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="manifest" href="site.webmanifest">
+      <!--icons -->
+      <link rel="apple-touch-icon" href="MM-2.ico">
+      <link rel="short icon" href="MM-2.ico">
+      <!-- Place favicon.ico in the root directory -->
+      <!--FB Graph-->
+	  <meta property="og:url" content="https://www.andrewmasonmedia.com" />
+	  <meta property="og:type" content="website" />
+	  <meta property="og:title" content="Mason Media">
+	  <meta property="og:image" content="http://www.andrewmasonmedia.com/img/mason-media-ss-min.jpg">
+	  <meta property="og:description" content="Andrew Mason is a Toronto web designer, front-end developer, copywriter, and graphic designer. He founded Mason Media to create bold, modern, innovative content for web and print.">
+	  <!--Twitter card-->
+	  <meta name="twitter:card" content="summary /">
+	  <meta name="twitter:title" content="Mason Media">
+	  <meta name="twitter:description" content="Andrew Mason is a Toronto web designer, front-end developer, copywriter, and graphic designer. He founded Mason Media to create bold, modern, innovative content for web and print.">
+	  <meta name="twitter:image" content="http://www.andrewmasonmedia.com/img/mason-media-ss-min.jpg">
+	  <meta name="twitter:image:alt" content="Mason Media">
+      <!--google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,500,700,900" rel="stylesheet">
+      <!--font awesome -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <!--animate css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+      <!--bootstrap-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/main.css">
+      <!--angular-->
+      <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+      <script src="app.js"></script>
+      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+      <base href="/index.html">
+   </head>
+   <body ng-app="myApp" class="bg-dark" ng-cloak>
+      <main class="body-wrap">
+		  <div ng-include='"header.html"'></div>
+		  <!--<div ng-include='"/header.html"'></div> *included here loads slower for some reason? put in actual page templates -->
+		  <div class="ng-view"></div>
+	  </main>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!--<script src="/js/vendor/jquery-3.2.1.min.js"></script>-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="/js/ngSmoothScroll/dist/angular-smooth-scroll.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="/js/main.js"></script>
+   </body>
+</html>
